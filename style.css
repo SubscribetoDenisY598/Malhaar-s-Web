@@ -1,0 +1,75 @@
+body {
+    text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#bio {
+    color: blue;
+    background: linear-gradient(#0ced48 0%, #05f2de 100%);
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+img {
+    border-radius: 50%;
+    width: 100px;
+}
+
+#CODING {
+    font-family: 'Girassol', cursive;
+}
+
+.line {
+    width: 40px;
+    height: 5px;
+    background-color: black;
+    margin: 8px auto;
+}
+
+#abouting {
+    font-family: 'Antonio', sans-serif;
+}
+
+#textabout {
+    font-family: 'Girassol', cursive;
+}
+
+#about {
+    background-color: aquamarine;
+    padding: 200px;
+    text-align: center;
+}
+
+.menu {
+    list-style: none;
+    font-family: 'Itim', cursive;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
+    background-color: black
+}
+
+.link {
+    display: inline-block;
+    padding-left: 5px;
+    padding-top: 5px;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    font-size: 20px;
+}
+
+#email {
+    background-color: black;
+    color: white;
+}
